@@ -1,9 +1,9 @@
-<img width="76" height="150" alt="deepseek_mermaid_20260911_61ab84" src="https://github.com/user-attachments/assets/5addd2c3-68b3-44c1-a3ef-954039038e03" /># PlcSimClient — схема работы и инструкция
+
 
 ## Схема обмена данными
 
 ```
-<img width="152" height="300" alt="deepseek_mermaid_20260911_61ab84" src="https://github.com/user-attachments/assets/5addd2c3-68b3-44c1-a3ef-954039038e03" /># PlcSimClient — схема работы и инструкция
+![Архитектура обмена данными](architecture_diagram.svg)
 ```
 
 
