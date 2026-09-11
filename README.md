@@ -13,7 +13,15 @@ flowchart TD
     B --> C
     C --> D
 ```
+flowchart TD
+    A["PlcSimClient<br/>(S7.Net, TCP-клиент)"]
+    B["Loopback-адаптер"]
+    C["NetToPLCSim<br/>(TCP-сервер + переводчик<br/>на внутренний протокол PLCSIM)"]
+    D["S7-PLCSIM<br/>(эмулятор CPU,<br/>хранит DB в своей памяти)"]
 
+    A -->|"TCP-пакет<br/>172.22.1.1:102"| B
+    B --> C
+    C --> D
 ---
 
 ## Требования перед подключением
